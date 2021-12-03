@@ -12,13 +12,12 @@
 .frontPage .welcome{
     position: absolute;
     top: 30%;
-    font-size: 50px;
-    left: auto;
-    right: auto;
-}
-
-.frontPage h1{
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+
