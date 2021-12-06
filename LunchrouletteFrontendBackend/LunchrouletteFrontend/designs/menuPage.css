@@ -24,11 +24,12 @@ header h1 {
 position: relative;
 }
 .banner img {
-    max-width: 65%;
+    max-width: 100%;
    display: block;
    margin-left: auto;
    margin-right: auto;
    position: relative;
+   z-index: 0;
 }
 .banner .welcome {
     color: black;
@@ -62,9 +63,11 @@ nav li {
     width: 25%;
     display: inline-block;
     font-size: 24px;
+    padding: 30px;
 }
+/*
 .main-nav {
     position: absolute; 
     padding: 30px;
     top: 87%;
-}
+} */
