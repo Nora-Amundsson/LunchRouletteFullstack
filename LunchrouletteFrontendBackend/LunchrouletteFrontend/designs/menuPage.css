@@ -1,0 +1,70 @@
+body, ul, li, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+header {
+    background-color: #f63232;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+.banner {
+position: relative;
+}
+.banner img {
+    max-width: 65%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+}
+.banner .welcome {
+    color: black;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+.banner h2 {
+    font-size: 54px;
+}
+.banner .please-choose {
+    color: black;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+.banner h3 {
+    font-size: 34px;
+}
+.banner h2 span {
+    font-size: 1.3em;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+.main-nav {
+    position: absolute; 
+    padding: 30px;
+    top: 87%;
+}
