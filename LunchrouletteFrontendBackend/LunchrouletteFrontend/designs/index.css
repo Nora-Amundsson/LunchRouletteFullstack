@@ -1,4 +1,14 @@
-
+body,
+ul,
+li,
+h1,
+h2,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
 body {
   background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/White\ Black\ and\ Orange\ Illustrative\ Design\ Portfolio\ &\ Resume\ Website-2.png");
   background-repeat: no-repeat;
@@ -10,17 +20,17 @@ body {
 }
 .pictureAndButton .welcome {
   color: rgb(0, 0, 0);
- 
+
   width: 100%;
 }
 .pictureAndButton .chatbubble {
   position: absolute;
   text-align: center;
-  
+
   font-size: 70px;
-  top: 19%;
-  left: 5%;
-   transform: rotate(-30deg);
+  top: 26%;
+  left: 4%;
+  transform: rotate(-30deg);
 }
 
 .pictureAndButton .forre {
@@ -29,13 +39,14 @@ body {
   margin-left: 30%;
   margin-right: 25%;
   font-size: 50px;
-  top: 42%;
+  top: 47%;
 }
 
 .pictureAndButton .enterButton {
   position: absolute;
+
   width: 100%;
-  top: 65%;
+  top: 79%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -53,7 +64,7 @@ body {
   color: black;
 }
 .enterButton h2 {
-  color: white;
+  color: black;
   font-size: 30px;
 }
 .enterButton button {
