@@ -47,6 +47,26 @@ img {
 .playButton h2 {
   color: white;
   font-size: 30px;
+
+
+}
+.pictureAndButton .playButton a {
+    color: black;
+    background-color: white;
+    border: 5px solid white;
+    padding: 6px 25px;
+    display: inline-block;
+    border-radius: 36px;
+    text-decoration: none;
+}
+.pictureAndButton .playButton a:visited {
+  color: black;
+}
+.playButton h2{
+    color: white;
+    font-size: 30px;
+    
+    
 }
 .playButton button {
   width: 150px;
