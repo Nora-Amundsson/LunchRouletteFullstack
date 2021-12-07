@@ -33,3 +33,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.welcome h1 {
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  top: 10%;
+  left: 5%;
+}
+.formSection {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: black;
+  background-color: orange;
+  border: 7px solid white;
+  padding: 6px 25px;
+  border-radius: 36px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 24px;
+}
