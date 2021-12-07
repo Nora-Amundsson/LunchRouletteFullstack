@@ -4,7 +4,6 @@ body, ul, li, h1, h2, a {
     font-family: arial;
 }
 header {
-    background-color: #f63232;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -15,21 +14,21 @@ header {
 }
 header h1 {
     color: white;
-    border: 8px solid white;
-    padding: 6px 12px;
+    border: 5px solid white;
+    padding: 6px 25px;
     display: inline-block;
     border-radius: 36px;
 }
+.background-image {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+ }
 .banner {
 position: relative;
-}
-.banner img {
-    max-width: 100%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   z-index: 0;
 }
 .banner .welcome {
     color: black;
@@ -40,6 +39,10 @@ position: relative;
 }
 .banner h2 {
     font-size: 54px;
+}
+.banner .welcome img {
+    width: 30em;
+    height: 20em;
 }
 .banner .please-choose {
     color: black;
@@ -58,6 +61,8 @@ nav ul {
     white-space: nowrap;
     max-width: 1200px;
     margin: 0 auto;
+    position: absolute;
+    top: 97%;
 }
 nav li {
     width: 25%;
