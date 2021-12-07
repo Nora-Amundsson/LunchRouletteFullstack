@@ -90,16 +90,19 @@ position: relative;
 }
 nav ul {
   white-space: nowrap;
-  max-width: 1200px;
   margin: 0 auto;
   position: absolute;
-  top: 97%;
+  top: 87%;
 }
 nav li {
   width: 25%;
   display: inline-block;
   font-size: 24px;
   padding: 30px;
+}
+nav li .last-button {
+padding-right: 0px;
+
 }
 .main-nav .button a {
   color: black;
