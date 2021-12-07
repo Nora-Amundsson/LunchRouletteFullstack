@@ -1,66 +1,62 @@
-.startPage {
-}
-header {
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-header h1 {
-  color: rgb(0, 0, 0);
-  font-size: 35px;
-}
-.pictureAndButton {
-  position: relative;
-  top: 60px;
-}
-img {
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+body {
+  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/White\ Black\ and\ Orange\ Illustrative\ Design\ Portfolio\ &\ Resume\ Website-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.pictureAndButton .welcome{
-    position: absolute;
-    color: rgb(240, 92, 34);
-    font-size: 40px;
-    text-align: center;
-    margin-left:auto;
-    margin-right: auto;
-    width: 100%;
-    top: 29%;
+.pictureAndButton {
+  top: 60px;
 }
-.pictureAndButton span{
-    font-size: 120%;
+.pictureAndButton .welcome {
+  color: rgb(0, 0, 0);
+ 
+  width: 100%;
 }
-.pictureAndButton .enterButton{
-    position: absolute;
-    width: 100%;
-    top: 65%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.pictureAndButton .chatbubble {
+  position: absolute;
+  text-align: center;
+  
+  font-size: 70px;
+  top: 19%;
+  left: 5%;
+   transform: rotate(-30deg);
+}
+
+.pictureAndButton .forre {
+  position: absolute;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 25%;
+  font-size: 50px;
+  top: 42%;
+}
+
+.pictureAndButton .enterButton {
+  position: absolute;
+  width: 100%;
+  top: 65%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pictureAndButton .enterButton a {
-    color: black;
-    background-color: white;
-    border: 5px solid white;
-    padding: 6px 25px;
-    display: inline-block;
-    border-radius: 36px;
-    text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 6px 25px;
+  display: inline-block;
+  border-radius: 36px;
+  text-decoration: none;
 }
 .pictureAndButton .enterButton a:visited {
   color: black;
 }
-.enterButton h2{
-    color: white;
-    font-size: 30px;  
+.enterButton h2 {
+  color: white;
+  font-size: 30px;
 }
-.enterButton button{
+.enterButton button {
   width: 150px;
   height: 60px;
   font-size: 40px;
