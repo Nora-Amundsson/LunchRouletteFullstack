@@ -100,7 +100,7 @@ nav li {
   font-size: 24px;
   padding: 30px;
 }
-.last-button {
+.last-button a{
   width: 0%;
   padding-right: 0px;
 }

@@ -52,7 +52,7 @@ body {
   display: inline-block;
   border-radius: 36px;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 39px;
 }
 .playbutton button:visited {
