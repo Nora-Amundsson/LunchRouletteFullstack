@@ -100,9 +100,9 @@ nav li {
   font-size: 24px;
   padding: 30px;
 }
-nav li .last-button {
-padding-right: 0px;
-
+.last-button {
+  width: 0%;
+  padding-right: 0px;
 }
 .main-nav .button a {
   color: black;
