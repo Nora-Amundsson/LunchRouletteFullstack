@@ -1,12 +1,35 @@
+body,
+ul,
+li,
+h1,
+h2,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+.button {
+    position: absolute;
+    top: 92%;
+    left: 3%;
+}
 .button a {
   color: black;
-  background-color: white;
+  background-color: orange;
   border: 5px solid white;
   padding: 6px 25px;
   display: inline-block;
   border-radius: 36px;
   text-decoration: none;
+  font-weight: normal;
+  font-size: 24px;
 }
 .button a:visited {
   color: black;
+}
+body {
+  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/mainMenuBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -18,19 +18,25 @@ img {
   z-index: 0;
 }
 body {
-  background-image: url("LunchrouletteFrontendBackend/LunchrouletteFrontend/img/spinTheWheelImg.png");
+  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/mainMenuBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .button {
-  position: absolute;
+    position: absolute;
+    top: 92%;
+    left: 3%;
 }
 .button a {
   color: black;
-  background-color: white;
+  background-color: orange;
   border: 5px solid white;
   padding: 6px 25px;
   display: inline-block;
   border-radius: 36px;
   text-decoration: none;
+  font-weight: normal;
+  font-size: 24px;
 }
 .button a:visited {
   color: black;
