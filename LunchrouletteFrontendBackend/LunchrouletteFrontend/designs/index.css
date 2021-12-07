@@ -1,62 +1,54 @@
-
-.startPage{
-   
+.startPage {
 }
-header{
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-   
+header {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
-header h1{
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    
+header h1 {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
 }
-.pictureAndButton{
-    position: relative;
-    top: 60px;
-   
+.pictureAndButton {
+  position: relative;
+  top: 60px;
 }
-img{
-    
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.pictureAndButton .welcome{
-    position: absolute;
-    color: rgb(240, 92, 34);
-    font-size: 40px;
-    text-align: center;
-    margin-left:auto;
-    margin-right: auto;
-    width: 100%;
-    top: 29%;
+.pictureAndButton .welcome {
+  position: absolute;
+  color: rgb(240, 92, 34);
+  font-size: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  top: 29%;
 }
-.pictureAndButton span{
-    font-size: 120%;
+.pictureAndButton span {
+  font-size: 120%;
 }
-.pictureAndButton .playButton{
-    position: absolute;
-    width: 100%;
-    top: 65%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.pictureAndButton .playButton {
+  position: absolute;
+  width: 100%;
+  top: 65%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-.playButton h2{
-    color: white;
-    font-size: 30px;
-    
-    
+.playButton h2 {
+  color: white;
+  font-size: 30px;
 }
-.playButton button{
+.playButton button {
   width: 150px;
   height: 60px;
   font-size: 40px;
@@ -274,6 +266,3 @@ footer{
     
   
   }*/
-    
-  
-
