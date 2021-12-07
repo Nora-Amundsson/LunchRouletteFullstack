@@ -109,7 +109,7 @@ nav li {
   display: inline-block;
   border-radius: 36px;
   text-decoration: none;
-  font-weight: ;
+  font-weight: normal;
 }
 .main-nav .button a:visited {
   color: black;
