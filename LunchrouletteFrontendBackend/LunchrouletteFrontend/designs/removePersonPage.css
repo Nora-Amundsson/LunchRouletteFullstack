@@ -1,3 +1,6 @@
+.button {
+    position: absolute;
+}
 .button a {
   color: black;
   background-color: white;
@@ -9,4 +12,7 @@
 }
 .button a:visited {
   color: black;
+}
+body {
+  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/mainMenuBackground.jpg");
 }

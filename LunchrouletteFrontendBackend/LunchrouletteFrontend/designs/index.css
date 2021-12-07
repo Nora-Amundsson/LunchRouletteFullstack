@@ -42,7 +42,7 @@ img{
 .pictureAndButton span{
     font-size: 120%;
 }
-.pictureAndButton .playButton{
+.pictureAndButton .enterButton{
     position: absolute;
     width: 100%;
     top: 65%;
@@ -50,7 +50,7 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.pictureAndButton .playButton a {
+.pictureAndButton .enterButton a {
     color: black;
     background-color: white;
     border: 5px solid white;
@@ -59,16 +59,14 @@ img{
     border-radius: 36px;
     text-decoration: none;
 }
-.pictureAndButton .playButton a:visited {
+.pictureAndButton .enterButton a:visited {
   color: black;
 }
-.playButton h2{
+.enterButton h2{
     color: white;
-    font-size: 30px;
-    
-    
+    font-size: 30px;  
 }
-.playButton button{
+.enterButton button{
   width: 150px;
   height: 60px;
   font-size: 40px;

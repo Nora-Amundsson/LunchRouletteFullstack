@@ -8,7 +8,7 @@ a {
   padding: 0;
   font-family: arial;
 }
-header {
+/*header {
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -18,12 +18,13 @@ header {
   left: 0;
 }
 header h1 {
-  color: white;
+  color: cadetblue;
   border: 5px solid white;
+  background-color: orange;
   padding: 6px 25px;
   display: inline-block;
   border-radius: 36px;
-} /*
+}
 .background-image {
   max-width: 100%;
   display: block;
@@ -34,47 +35,55 @@ header h1 {
 } */
 body {
   background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/mainMenuBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*.banner {
 position: relative;
-}*/
+}*/ /*
 .banner .welcome {
   color: black;
   padding: 30px;
   position: absolute;
   left: 0;
   top: 20%;
-}
+} */
 .banner .welcome h2 {
+  color: black;
   font-size: 45px;
   z-index: 2;
   position: absolute;
+  top: 25%;
+  left: 3%;
 }
 .banner .welcome img {
   width: 45em;
   height: 20em;
   position: absolute;
-  top: 5%;
+  top: 15%;
   z-index: 1;
-}
+} /*
 .banner .please-choose {
   color: black;
   padding: 30px;
   position: absolute;
-  right: 0;
+  right: 7%;
   top: 30%;
-}
+}*/
 .banner .please-choose img {
   width: 45em;
   height: 20em;
   position: absolute;
-  top: 5%;
+  right: 20px;
+  top: 30%;
   z-index: 1;
 }
 .banner h3 {
   font-size: 34px;
   position: absolute;
   z-index: 2;
+  right: 5%;
+  top: 38%;
 }
 .banner h2 span {
   font-size: 1.3em;
@@ -91,6 +100,19 @@ nav li {
   display: inline-block;
   font-size: 24px;
   padding: 30px;
+}
+.main-nav .button a {
+  color: black;
+  background-color: orange;
+  border: 5px solid white;
+  padding: 6px 25px;
+  display: inline-block;
+  border-radius: 36px;
+  text-decoration: none;
+  font-weight: ;
+}
+.main-nav .button a:visited {
+  color: black;
 }
 /*
 .main-nav {
