@@ -50,17 +50,17 @@ position: relative;
 } */
 .banner .welcome h2 {
   color: black;
-  font-size: 45px;
+  font-size: 34px;
   z-index: 2;
   position: absolute;
-  top: 25%;
+  top: 27%;
   left: 3%;
 }
 .banner .welcome img {
-  width: 45em;
-  height: 20em;
+  width: 35em;
+  height: 13em;
   position: absolute;
-  top: 15%;
+  top: 18%;
   z-index: 1;
 } /*
 .banner .please-choose {
@@ -71,15 +71,15 @@ position: relative;
   top: 30%;
 }*/
 .banner .please-choose img {
-  width: 45em;
-  height: 20em;
+  width: 33em;
+  height: 10em;
   position: absolute;
-  right: 20px;
-  top: 30%;
+  right: 10px;
+  top: 34%;
   z-index: 1;
 }
 .banner h3 {
-  font-size: 34px;
+  font-size: 24px;
   position: absolute;
   z-index: 2;
   right: 5%;
@@ -95,14 +95,9 @@ nav ul {
   top: 87%;
 }
 nav li {
-  width: 25%;
   display: inline-block;
   font-size: 24px;
-  padding: 30px;
-}
-.last-button a{
-  width: 0%;
-  padding-right: 0px;
+  padding-left: 55px;
 }
 .main-nav .button a {
   color: black;
