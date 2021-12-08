@@ -28,6 +28,16 @@ p {
 .button a:visited {
   color: black;
 }
+.button1 {
+  border-radius: 36px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  }
+.button1:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
 body {
   background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/mainMenuBackground.jpg");
   background-repeat: no-repeat;
@@ -47,12 +57,26 @@ body {
   color: black;
   background-color: orange;
   border: 7px solid white;
-  padding: 6px 25px;
+  padding: 8px 25px;
   border-radius: 36px;
   text-decoration: none;
   font-weight: normal;
   font-size: 24px;
 }
-.formSection .addPersonForm input [type=text] {
-padding: 10px;
+/*
+.formSection .addPersonForm input [type="text"] {
+  padding: 20px;
+  border: 7px solid lightblue;
+  border-radius: 36px;
 }
+.test input [type="text"] {
+  padding: 20px;
+  border: 7px solid lightblue;
+  border-radius: 36px;
+}
+input [type="submit"] {
+  color: orange;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 36px;
+} */
