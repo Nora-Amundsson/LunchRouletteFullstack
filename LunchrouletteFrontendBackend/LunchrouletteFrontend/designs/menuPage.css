@@ -8,23 +8,6 @@ a {
   padding: 0;
   font-family: arial;
 }
-/*header {
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-}
-header h1 {
-  color: cadetblue;
-  border: 5px solid white;
-  background-color: orange;
-  padding: 6px 25px;
-  display: inline-block;
-  border-radius: 36px;
-}
 .background-image {
   max-width: 100%;
   display: block;
@@ -32,58 +15,48 @@ header h1 {
   margin-right: auto;
   position: relative;
   z-index: -10; 
-} */
+}
 body {
   background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/AllButtonsBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*.banner {
-position: relative;
-}*/ /*
-.banner .welcome {
-  color: black;
-  padding: 30px;
-  position: absolute;
-  left: 0;
-  top: 20%;
-} */
 .banner .welcome h2 {
   color: black;
-  font-size: 34px;
+  font-size: 26px;
   z-index: 2;
+  right: 9%;
+  top: 15%;
   position: absolute;
-  top: 27%;
-  left: 3%;
+  transform: rotate(10deg);
+  text-align: center;
 }
-.banner .welcome img {
-  width: 35em;
-  height: 13em;
-  position: absolute;
-  top: 18%;
-  z-index: 1;
-} /*
-.banner .please-choose {
-  color: black;
-  padding: 30px;
-  position: absolute;
-  right: 7%;
-  top: 30%;
-}*/
+span {
+font-size: 34px;
+}
 .banner .please-choose img {
-  width: 33em;
-  height: 10em;
+  width: 14em;
+  height: 6.2em;
   position: absolute;
-  right: 10px;
-  top: 34%;
+  top: 71%;
   z-index: 1;
+} 
+.banner .welcome img {
+  width: 24em;
+  height: 8em;
+  position: absolute;
+  right: 34px;
+  top: 12%;
+  z-index: 1;
+  transform: rotate(10deg);
 }
 .banner h3 {
-  font-size: 24px;
+  font-size: 19px;
   position: absolute;
   z-index: 2;
-  right: 5%;
-  top: 38%;
+  top: 71.5%;
+  left: 1.5%;
+  text-align: center;
 }
 .banner h2 span {
   font-size: 1.3em;
@@ -96,8 +69,8 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  font-size: 24px;
-  padding-left: 55px;
+  font-size: 16px;
+  padding-left: 45px;
 }
 .main-nav .button a {
   color: black;
@@ -122,9 +95,50 @@ nav li {
   color: rgb(0, 0, 0);
   transform: translateY(-7px);
 }
+.fisrtli {
+  padding-left: unset;
+  padding-left: 10000
+}
 /*
 .main-nav {
     position: absolute; 
     padding: 30px;
     top: 87%;
 } */
+
+/*header {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+header h1 {
+  color: cadetblue;
+  border: 5px solid white;
+  background-color: orange;
+  padding: 6px 25px;
+  display: inline-block;
+  border-radius: 36px;
+}
+
+/*.banner {
+position: relative;
+}*/ /*
+.banner .welcome {
+  color: black;
+  padding: 30px;
+  position: absolute;
+  left: 0;
+  top: 20%;
+} */
+/*
+.banner .please-choose {
+  color: black;
+  padding: 30px;
+  position: absolute;
+  right: 7%;
+  top: 30%;
+}*/
