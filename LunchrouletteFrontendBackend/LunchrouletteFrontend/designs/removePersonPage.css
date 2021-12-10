@@ -11,7 +11,7 @@ p {
 }
 .button {
     position: absolute;
-    top: 92%;
+    top: 87%;
     left: 3%;
 }
 .button a {
@@ -52,4 +52,33 @@ body {
   text-decoration: none;
   font-weight: normal;
   font-size: 24px;
+}
+.button1 {
+  border-radius: 36px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  }
+.button1:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
+input {
+  background-color: blanchedalmond;
+  border-radius: 36px;
+  border: 2px solid lightskyblue;
+  padding: 6px;
+}
+.submitb {
+  border-radius: 36px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.submitb:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  transform: translateY(-3px);
+}
+::placeholder {
+  color: rgb(247, 188, 78);
 }
