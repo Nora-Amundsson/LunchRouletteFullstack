@@ -24,8 +24,8 @@ body {
 }
 .button {
   position: absolute;
-  top: 87%;
-  left: 3%;
+  top: 89%;
+  left: 16%;
 }
 .button a {
   color: black;
@@ -43,8 +43,8 @@ body {
 }
 .playbutton button {
   position: absolute;
-  top: 81%;
-  left: 45.5%;
+  top: 89%;
+  left: 44.2%;
   color: black;
   background-color: orange;
   border: 7px solid black;
