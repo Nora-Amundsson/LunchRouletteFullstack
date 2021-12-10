@@ -14,7 +14,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  z-index: -10; 
+  z-index: -10;
 }
 body {
   background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/AllButtonsBackground.png");
@@ -32,7 +32,7 @@ body {
   text-align: center;
 }
 span {
-font-size: 34px;
+  font-size: 34px;
 }
 .banner .please-choose img {
   width: 14em;
@@ -40,7 +40,7 @@ font-size: 34px;
   position: absolute;
   top: 71%;
   z-index: 1;
-} 
+}
 .banner .welcome img {
   width: 24em;
   height: 8em;
@@ -65,7 +65,7 @@ nav ul {
   white-space: nowrap;
   margin: 0 auto;
   position: absolute;
-  top: 87%;
+  top: 89%;
 }
 nav li {
   display: inline-block;
@@ -89,7 +89,7 @@ nav li {
   border-radius: 36px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
-  }
+}
 .button1:hover {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: rgb(0, 0, 0);
@@ -97,7 +97,7 @@ nav li {
 }
 .fisrtli {
   padding-left: unset;
-  padding-left: 10000
+  padding-left: 10000;
 }
 /*
 .main-nav {
