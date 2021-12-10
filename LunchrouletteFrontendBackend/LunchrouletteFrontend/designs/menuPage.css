@@ -34,7 +34,7 @@ header h1 {
   z-index: -10; 
 } */
 body {
-  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/mainMenuBackground.jpg");
+  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/AllButtonsBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
