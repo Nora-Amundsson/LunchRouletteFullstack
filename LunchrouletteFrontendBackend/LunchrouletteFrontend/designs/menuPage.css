@@ -66,6 +66,7 @@ nav ul {
   margin: 0 auto;
   position: absolute;
   top: 89%;
+  left: 13.5%;
 }
 nav li {
   display: inline-block;
@@ -97,7 +98,7 @@ nav li {
 }
 .fisrtli {
   padding-left: unset;
-  padding-left: 10000;
+  padding-left: 10000px;
 }
 /*
 .main-nav {
